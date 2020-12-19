@@ -1,6 +1,6 @@
 {
   "name": "animate-css-class-extractor",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Extract css classes from animate.css to json or js module file",
   "main": "main.js",
   "bin": "main.js",
