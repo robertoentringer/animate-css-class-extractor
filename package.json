@@ -1,0 +1,48 @@
+{
+  "name": "animate-css-class-extractor",
+  "version": "0.0.10",
+  "description": "Extract css classes from animate.css to json or js module file",
+  "main": "main.js",
+  "bin": "main.js",
+  "files": [
+    "main.js"
+  ],
+  "scripts": {
+    "start": "node main.js",
+    "lint": "eslint --fix main.js",
+    "prepublishOnly": "npm run lint && npm version patch && git push && git push --tags"
+  },
+  "keywords": [
+    "animate.css",
+    "extractor",
+    "extract",
+    "parse",
+    "export",
+    "css",
+    "classes",
+    "animations",
+    "cmd",
+    "module",
+    "json",
+    "object"
+  ],
+  "author": "Roberto Entringer <r.entringer@gmail.com> (https://robertoentringer.dev/)",
+  "license": "MIT",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "eslint-config-prettier": "^7.0.0",
+    "eslint-plugin-prettier": "^3.3.0",
+    "prettier": "^2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertoentringer/animate-css-class-extractor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robertoentringer/animate-css-class-extractor/issues"
+  },
+  "homepage": "https://github.com/robertoentringer/animate-css-class-extractor#readme"
+}
